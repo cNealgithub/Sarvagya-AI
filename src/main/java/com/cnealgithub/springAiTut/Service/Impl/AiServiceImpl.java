@@ -2,6 +2,7 @@ package com.cnealgithub.springAiTut.Service.Impl;
 
 import com.cnealgithub.springAiTut.Entity.ResponseStructure;
 import com.cnealgithub.springAiTut.Service.AiService;
+import com.cnealgithub.springAiTut.Tools.SimpleDateTimeTool;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -132,6 +133,7 @@ public class AiServiceImpl implements AiService {
 
         return this.ollamaChatClient
                 .prompt(query)
+                .tools(new SimpleDateTimeTool())
                 .advisors(advisorSpec -> advisorSpec.param(conversationIdKey, conversationId))
                 .call()
                 .content();
