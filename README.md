@@ -1,6 +1,6 @@
 # Sarvagya AI 🧠
 
-Sarvagya AI is a localized, enterprise-grade Retrieval-Augmented Generation (RAG) chatbot system designed to securely process, query, and retrieve institutional knowledge for Dr. Shyama Prasad Mukherjee University (DSPMU). Built on Spring Web MVC and modern Java concurrency, it leverages local LLMs to ensure strict data privacy while maintaining high-throughput inference.
+Sarvagya AI is a localized, enterprise-grade Retrieval-Augmented Generation (RAG) chatbot system designed to securely process, query, and retrieve institutional knowledge for Dr. Shyama Prasad Mukherjee University (DSPMU). Built on Spring Web MVC and modern Java concurrency, it leverages local LLMs to ensure strict data privacy while maintaining high-throughput inference for the System.
 
 ## 🚀 Key Features
 
